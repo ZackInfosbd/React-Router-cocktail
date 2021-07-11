@@ -19,7 +19,7 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/Coctail/:id" children={<SingleCocktail />}>
+          <Route path="/Cocktail/:id" children={<SingleCocktail />}>
             <SingleCocktail />
           </Route>
           <Route>
